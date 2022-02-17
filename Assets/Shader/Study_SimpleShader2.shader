@@ -11,10 +11,6 @@
 			struct a2v{
 				//POSITION 语义指定 用模型空间的顶点坐标填充vertex
 				float4 vertex : POSITION;
-				//NORMAL 语义指定 用模型空间的法线填充normal
-				float3 normal : NORMAL;
-				//TEXCOORD0 语义指定 用模型空间的第一张纹理填充texcoord
-				float4 texcoord : TEXCOORD0;
 			};
 
 			float4 vert(a2v v) : SV_POSITION{
